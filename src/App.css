@@ -1,0 +1,72 @@
+.App {
+  text-align: left;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.placeholder-image {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px dashed rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  padding: 60px 20px;
+  text-align: center;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.placeholder-image h3 {
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+.placeholder-image p {
+  opacity: 0.6;
+  margin: 0;
+}
+
+.feature-icon {
+  margin-bottom: 1rem;
+}
+
+/* Custom button styles */
+.btn-primary {
+  background-color: #667eea;
+  border-color: #667eea;
+}
+
+.btn-primary:hover {
+  background-color: #5a67d8;
+  border-color: #5a67d8;
+}
+
+.btn-outline-primary {
+  color: #667eea;
+  border-color: #667eea;
+}
+
+.btn-outline-primary:hover {
+  background-color: #667eea;
+  border-color: #667eea;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .placeholder-image {
+    margin-top: 2rem;
+    padding: 40px 20px;
+    min-height: 200px;
+  }
+}
