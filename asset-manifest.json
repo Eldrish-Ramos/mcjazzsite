@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/mcjazzsite/static/css/main.55161da4.css",
+    "main.js": "/mcjazzsite/static/js/main.2ff839e9.js",
+    "static/js/488.938cff60.chunk.js": "/mcjazzsite/static/js/488.938cff60.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/mcjazzsite/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/mcjazzsite/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "index.html": "/mcjazzsite/index.html",
+    "main.55161da4.css.map": "/mcjazzsite/static/css/main.55161da4.css.map",
+    "main.2ff839e9.js.map": "/mcjazzsite/static/js/main.2ff839e9.js.map",
+    "488.938cff60.chunk.js.map": "/mcjazzsite/static/js/488.938cff60.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55161da4.css",
+    "static/js/main.2ff839e9.js"
+  ]
+}
