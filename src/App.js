@@ -8,7 +8,7 @@ function App() {
       {/* Navigation */}
       <Navbar bg="dark" variant="dark" expand="lg" fixed="top" className="custom-navbar">
         <Container>
-          <Navbar.Brand href="#home" className="brand-text">Marcus Jazz</Navbar.Brand>
+          <Navbar.Brand href="#home" className="brand-text">Mauricio Castellanos</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
@@ -29,18 +29,29 @@ function App() {
               <div className="hero-content">
                 <Badge bg="primary" className="mb-3 hero-badge">Jazz Musician & Educator</Badge>
                 <h1 className="hero-title mb-4">
-                  <span className="text-white">Marcus</span>
-                  <span className="text-orange"> Williams</span>
+                  <span className="text-white">Mauricio</span>
+                  <span className="text-orange"> Castellanos</span>
                 </h1>
                 <p className="hero-description mb-4">
-                  Bringing the soul of jazz to life through performance and education. With over 15 years of experience, 
-                  I help students discover their unique musical voice while mastering the fundamentals of jazz improvisation.
+                  Trumpet player and educator from Los Angeles, exploring jazz, Black American music, Latino music, and improvisational forms. 
+                  Trained under renowned masters including Dan Rosenboom, Howard Sheer, and Arturo Sandoval, with experience performing 
+                  in notable ensembles and recording soundtracks for independent films.
                 </p>
                 <div className="hero-buttons">
-                  <Button variant="warning" size="lg" className="me-3 btn-orange">
+                  <Button 
+                    variant="warning" 
+                    size="lg" 
+                    className="me-3 btn-orange"
+                    onClick={() => window.open('https://www.youtube.com/watch?v=wNnTF3IMvfc', '_blank')}
+                  >
                     Listen to My Music
                   </Button>
-                  <Button variant="outline-primary" size="lg" className="btn-outline-blue">
+                  <Button 
+                    variant="outline-primary" 
+                    size="lg" 
+                    className="btn-outline-blue"
+                    onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
+                  >
                     Get In Touch
                   </Button>
                 </div>
@@ -50,8 +61,8 @@ function App() {
               <div className="hero-image-container">
                 <div className="hero-image-bg"></div>
                 <img 
-                  src="https://placehold.co/592x500" 
-                  alt="Marcus Williams"
+                  src="/assets/Mauricio Castellanos.jpg" 
+                  alt="Mauricio Castellanos"
                   className="hero-image img-fluid"
                 />
               </div>
@@ -67,18 +78,13 @@ function App() {
             <Col lg={8}>
               <h2 className="section-title mb-4">
                 <span className="text-white">About</span>
-                <span className="text-teal"> Marcus</span>
+                <span className="text-teal"> Mauricio</span>
               </h2>
               <p className="about-text mb-4">
-                Born and raised in New Orleans, I grew up surrounded by the rich musical heritage of jazz. 
-                My journey began at age 12 when I first picked up the saxophone, and I haven't looked back since. 
-                I've performed at renowned venues across the country and have had the privilege of sharing the 
-                stage with some of jazz's greatest legends.
+                Mauricio Castellanos (b. May, 23, 2001) is a trumpet player and educator from the Los Angeles area. His areas of musical interest include those of jazz, Black American music,  Latino music, and improvisational music, while also keeping an interest in jazz education. He has studied under the guidance of Dan Rosenboom, Howard Sheer, Mike Fortunato and Joshua Augiar, while receiving one off lessons from Jens Linderman and Arturo Sandoval. Castellanos has performed with notable bands such as the CSUN B and C Bands, Boyd Cannon Big Band, has led several of his own ensembles and has recorded a few soundtracks for independent films. Castellanos currently studying at California State University Northridge to recieve his single subject teaching credential.
               </p>
               <p className="about-text">
-                My passion for music extends beyond performance. For the past decade, I've dedicated myself to 
-                teaching and mentoring the next generation of jazz musicians. I believe that jazz is not just 
-                about technical proficiency, but about expressing one's authentic self through music.
+                "I am interested in the study of music and the discipline of music and the experience of music and music as a esoteric mechanism to continue my real intentions." - Anthony Braxton
               </p>
             </Col>
             <Col lg={4}>
@@ -111,7 +117,7 @@ function App() {
                 <span className="text-primary"> Approach</span>
               </h2>
               <p className="section-subtitle">
-                Every student is unique, and so is their musical journey. I tailor my teaching methods to unlock each individual's potential.
+                “If the musician is illuminated from within, he becomes a lamp that lights other lamps” -Kenny Werner, “Effortless Mastery”	
               </p>
             </Col>
           </Row>
@@ -119,36 +125,39 @@ function App() {
             <Col lg={4} className="mb-4">
               <div className="teaching-card border-primary">
                 <div className="teaching-icon bg-primary">
-                  <i className="bi bi-music-note-beamed"></i>
+                  <i className="bi bi-music-note-list"></i>
                 </div>
-                <h3 className="teaching-title">Strong Fundamentals</h3>
+                <h3 className="teaching-title">Modern Trumpet Approach</h3>
                 <p className="teaching-text">
-                  Building a solid foundation in music theory, scales, and technique that 
-                  serves as the backbone for creative expression.
+                  The trumpet is more than just lead or solo - it's a beautiful tool and companion through life. 
+                  I teach the core fundamentals (air, embouchure, tongue, fingers) while helping students 
+                  discover their unique voice beyond traditional roles.
                 </p>
               </div>
             </Col>
             <Col lg={4} className="mb-4">
               <div className="teaching-card border-warning">
                 <div className="teaching-icon bg-warning">
-                  <i className="bi bi-lightning-fill"></i>
+                  <i className="bi bi-clock-history"></i>
                 </div>
-                <h3 className="teaching-title">Creative Improvisation</h3>
+                <h3 className="teaching-title">Jazz History & Lineage</h3>
                 <p className="teaching-text">
-                  Developing the confidence and skills to improvise freely while maintaining 
-                  musical coherence and personal style.
+                  Understanding who came before us and why we embark on this musical journey. 
+                  I preserve the important lineage of jazz while acknowledging the complex stories 
+                  that shape our understanding of this music's rich heritage.
                 </p>
               </div>
             </Col>
             <Col lg={4} className="mb-4">
               <div className="teaching-card border-success">
                 <div className="teaching-icon bg-success">
-                  <i className="bi bi-headphones"></i>
+                  <i className="bi bi-person-heart"></i>
                 </div>
-                <h3 className="teaching-title">Active Listening</h3>
+                <h3 className="teaching-title">Personal Excellence</h3>
                 <p className="teaching-text">
-                  Learning from the masters through careful analysis and transcription of 
-                  iconic jazz performances.
+                  Each student is as unique as jazz itself. Rather than seeking to be the world's best, 
+                  I encourage students to be their personal best - a more meaningful and challenging goal 
+                  that fosters deeper love for the music through discipline and self-discovery.
                 </p>
               </div>
             </Col>
@@ -230,7 +239,7 @@ function App() {
                   </div>
                   <div className="contact-details">
                     <h5 className="contact-label">Email</h5>
-                    <p className="contact-value">marcus.williams@jazzmusic.com</p>
+                    <p className="contact-value">Placeholder Email Woo</p>
                   </div>
                 </div>
                 <div className="contact-item mb-4">
@@ -291,16 +300,28 @@ function App() {
         <Container>
           <Row className="align-items-center">
             <Col md={6}>
-              <div className="footer-brand">Marcus Jazz</div>
+              <div className="footer-brand">Mauricio Castellanos</div>
             </Col>
             <Col md={6} className="text-md-end">
               <div className="social-links mb-2">
-                <a href="#" className="social-link me-3"><i className="bi bi-facebook"></i></a>
-                <a href="#" className="social-link me-3"><i className="bi bi-twitter"></i></a>
-                <a href="#" className="social-link me-3"><i className="bi bi-instagram"></i></a>
-                <a href="#" className="social-link"><i className="bi bi-youtube"></i></a>
+                <a 
+                  href="https://www.instagram.com/maurictpt/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="social-link me-3"
+                >
+                  <i className="bi bi-instagram"></i>
+                </a>
+                <a 
+                  href="https://www.youtube.com/@mauriciocastellanos6780/videos" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="social-link"
+                >
+                  <i className="bi bi-youtube"></i>
+                </a>
               </div>
-              <p className="footer-text">© 2024 Marcus Williams. All rights reserved.</p>
+              <p className="footer-text">© 2024 Mauricio Castellanos. All rights reserved.</p>
             </Col>
           </Row>
         </Container>
