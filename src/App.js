@@ -90,15 +90,15 @@ function App() {
             <Col lg={4}>
               <div className="stats-container">
                 <div className="stat-card stat-purple mb-3">
-                  <div className="stat-number">15+</div>
+                  <div className="stat-number">5+</div>
                   <div className="stat-label">Years Experience</div>
                 </div>
                 <div className="stat-card stat-orange mb-3">
-                  <div className="stat-number">200+</div>
-                  <div className="stat-label">Students Taught</div>
+                  <div className="stat-number">3+</div>
+                  <div className="stat-label">Film Soundtracks</div>
                 </div>
                 <div className="stat-card stat-teal">
-                  <div className="stat-number">50+</div>
+                  <div className="stat-number">20+</div>
                   <div className="stat-label">Performances</div>
                 </div>
               </div>
@@ -180,10 +180,19 @@ function App() {
           <Row>
             <Col lg={3} md={6} className="mb-4">
               <Card className="performance-card">
-                <Card.Img variant="top" src="https://placehold.co/290x192" />
+                <Card.Img variant="top" src="/assets/TheMo.png" />
                 <Card.Body>
-                  <Card.Title className="performance-title">Blue Note Sessions</Card.Title>
-                  <Card.Text className="performance-venue">Live at Lincoln Center</Card.Text>
+                  <Card.Title className="performance-title">The Mo</Card.Title>
+                  <Card.Text className="performance-venue">Live at American Pie Records</Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col lg={3} md={6} className="mb-4">
+              <Card className="performance-card">
+                <Card.Img variant="top" src="/assets/RecitalHall.jpg" />
+                <Card.Body>
+                  <Card.Title className="performance-title">Senior Recital, 2023</Card.Title>
+                  <Card.Text className="performance-venue">Cal. State University Northridge</Card.Text>
                 </Card.Body>
               </Card>
             </Col>
@@ -191,8 +200,8 @@ function App() {
               <Card className="performance-card">
                 <Card.Img variant="top" src="https://placehold.co/290x192" />
                 <Card.Body>
-                  <Card.Title className="performance-title">Midnight Jazz</Card.Title>
-                  <Card.Text className="performance-venue">Village Vanguard</Card.Text>
+                  <Card.Title className="performance-title">PlaceHolder</Card.Title>
+                  <Card.Text className="performance-venue">PlaceHolder</Card.Text>
                 </Card.Body>
               </Card>
             </Col>
@@ -200,17 +209,8 @@ function App() {
               <Card className="performance-card">
                 <Card.Img variant="top" src="https://placehold.co/290x192" />
                 <Card.Body>
-                  <Card.Title className="performance-title">Studio Sessions</Card.Title>
-                  <Card.Text className="performance-venue">Original Compositions</Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col lg={3} md={6} className="mb-4">
-              <Card className="performance-card">
-                <Card.Img variant="top" src="https://placehold.co/290x192" />
-                <Card.Body>
-                  <Card.Title className="performance-title">Jazz Festival</Card.Title>
-                  <Card.Text className="performance-venue">Monterey 2023</Card.Text>
+                  <Card.Title className="performance-title">PlaceHolder</Card.Title>
+                  <Card.Text className="performance-venue">PlaceHolder</Card.Text>
                 </Card.Body>
               </Card>
             </Col>
@@ -239,7 +239,7 @@ function App() {
                   </div>
                   <div className="contact-details">
                     <h5 className="contact-label">Email</h5>
-                    <p className="contact-value">Placeholder Email Woo</p>
+                    <p className="contact-value">mauriciocastellanostpt@gmail.com</p>
                   </div>
                 </div>
                 <div className="contact-item mb-4">
@@ -248,7 +248,7 @@ function App() {
                   </div>
                   <div className="contact-details">
                     <h5 className="contact-label">Phone</h5>
-                    <p className="contact-value">(504) 555-JAZZ</p>
+                    <p className="contact-value">(805) 509-8090</p>
                   </div>
                 </div>
                 <div className="contact-item">
@@ -257,7 +257,7 @@ function App() {
                   </div>
                   <div className="contact-details">
                     <h5 className="contact-label">Location</h5>
-                    <p className="contact-value">New Orleans, LA</p>
+                    <p className="contact-value">Camarillo, CA</p>
                   </div>
                 </div>
               </div>
